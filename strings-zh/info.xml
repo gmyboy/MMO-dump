@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resource name="简体中文语言包" version="XMas-2025(2025.12.26)" description="保留大部分剧情，简化常用功能、天王和道馆的文案" author="" weblink="https://forums.pokemmo.com">
+    <strings string_revision="1">
+        <string path="dump_BPE_zh.xml" />
+        <string path="dump_BPR_zh.xml" />
+        <string path="dump_strings_zh.xml" />
+        <string path="dump_CPU_0_zh.xml" />
+        <string path="dump_IPK_0_zh.xml" />
+        <string path="dump_IRA_0_zh.xml" />
+        <string path="dump_IRA_1_zh.xml" />
+    </strings>
+</resource>

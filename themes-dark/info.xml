@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource name="暗黑主题(手机)" version="1.0" description="" author="" weblink="https://forums.pokemmo.com/index.php?/tags/themes/">
+    <themes theme_revision="6">
+        <theme path="android/" name="暗黑" is_mobile="true"/>
+    </themes>
+</resource>
