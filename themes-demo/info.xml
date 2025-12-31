@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resource name="霄宫手机主题" version="1.1" description="" author="Gumy" weblink="https://forums.pokemmo.com/index.php?/tags/themes/">
+    <themes theme_revision="5">
+        <theme path="data/theme_JT/" name="霄宫" is_mobile="true"/>
+    </themes>
+</resource>

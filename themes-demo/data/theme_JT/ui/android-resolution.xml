@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+    <theme name="characterselectgui" ref="logingui">
+        <param name="minWidth"><int>1280</int></param>
+        <param name="minHeight"><int>720</int></param>
+        <param name="maxWidth"><int>2556</int></param>
+        <param name="maxHeight"><int>1179</int></param>
+    </theme>
+    
+	<theme name="queuegui" ref="logingui">
+        <param name="minWidth"><int>1280</int></param>
+        <param name="minHeight"><int>720</int></param>
+        <param name="maxWidth"><int>2556</int></param>
+        <param name="maxHeight"><int>1179</int></param>
+	</theme>
+
+    <theme name="logingui">
+        <param name="minWidth"><int>1280</int></param>
+        <param name="minHeight"><int>720</int></param>
+        <param name="maxWidth"><int>2556</int></param>
+        <param name="maxHeight"><int>1179</int></param>
+    </theme>
+    
+</themes>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+	<!-- Colors and stuff -->
+	<constantDef name="main-theme-color">
+		<color>#6a889b</color>
+	</constantDef>
+	<!-- Overrides Button hover and inputbox select -->
+	<constantDef name="main-color">
+		<color>#5db1ff</color>
+	</constantDef>
+	<constantDef name="sub-color">
+		<color>#5db1ff</color>
+	</constantDef>
+	<constantDef name="tooltip-tint">
+		<color>#FF565D63</color>
+	</constantDef>
+
+	<!-- Include Main Theme -->
+	<include filename="fonts.xml"/>
+	<!-- Must be included after all fonts are loaded -->
+	<fontGen/>
+
+	<include filename="../assets/cursors.xml"/>
+	<include filename="../assets/gfx.xml"/>
+	<include filename="../assets/gfx_ui.xml"/>
+	<include filename="gfx.xml"/>
+	<include filename="../assets/init.xml"/>
+
+	<!-- Including rest of the GUI -->
+	<include filename="../assets/ui/main.xml"/>
+	<include filename="../assets/ui/battle.xml"/>
+	<include filename="../assets/ui/contest.xml"/>
+	<include filename="../assets/ui/party.xml"/>
+	<include filename="../assets/ui/inventory.xml"/>
+	<include filename="../assets/ui/chat.xml"/>
+	<!--
+	<include filename="../assets/ui/monster-dex.xml"/>
+	-->
+	<include filename="../assets/ui/monster-frame.xml"/>
+	<!--
+	<include filename="../assets/ui/pc.xml"/>
+	-->
+	<include filename="../assets/ui/customization.xml"/>
+	<include filename="../assets/ui/settings.xml"/>
+	<include filename="../assets/ui/guild.xml"/>
+	<include filename="../assets/ui/matchmaking.xml"/>
+	<include filename="../assets/ui/social.xml"/>
+	<include filename="../assets/ui/trade.xml"/>
+	<include filename="../assets/ui/shop.xml"/>
+	<include filename="../assets/ui/link.xml"/>
+	<include filename="../assets/ui/misc.xml"/>
+	<include filename="../assets/ui/broker.xml"/>
+	<include filename="../assets/ui/staff.xml"/>
+	<include filename="../assets/main-widgets.xml"/>
+	<include filename="android.xml"/>
+	<include filename="ui/android-battle.xml"/>
+	<include filename="ui/android-chat.xml"/>
+	<include filename="ui/android-party.xml"/>
+	<include filename="ui/android-inventory.xml"/>
+	<include filename="ui/android-customization.xml"/>
+	<include filename="ui/android-event.xml"/>
+	<include filename="ui/android-monster-dex.xml"/>
+	<include filename="ui/android-monster-frame.xml"/>
+	<include filename="ui/android-settings.xml"/>
+	<include filename="ui/android-guild.xml"/>
+	<include filename="ui/android-matchmaking.xml"/>
+	<include filename="ui/android-social.xml"/>
+	<include filename="ui/android-shop.xml"/>
+	<include filename="ui/android-misc.xml"/>
+	<include filename="ui/android-staff.xml"/>
+	<include filename="ui/android-pc.xml"/>
+	<include filename="ui/android-trade.xml"/>
+	<include filename="ui/android-link.xml"/>
+	<include filename="ui/android-instance.xml"/>
+	<include filename="ui/android-encounter.xml"/>
+	<include filename="ui/android-incubator.xml"/>
+
+	<theme name="breed-window" ref="base-frame">
+		<param name="background">
+			<image>breed-window.background</image>
+		</param>
+	</theme>
+</themes>
